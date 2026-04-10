@@ -67,7 +67,7 @@ def search_news(question: str):
     """
 
     # 5. Call the Gemini API
-    model = genai.GenerativeModel('gemini-1.5-flash') # Flash is fastest for API endpoints
+    model = genai.GenerativeModel('gemini-2.5-flash') # Flash is fastest for API endpoints
     response = model.generate_content(prompt)
 
     # 6. Return the structured data
