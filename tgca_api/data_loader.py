@@ -3,7 +3,7 @@ import os
 
 def fetch_2026_archive():
     """Fetches all markdown files directly from the original tgca repo using a PAT."""
-    repo_url = "https://api.github.com/repos/ravikiranoffl/tgca/contents/2026"
+    repo_url = "https://api.github.com/repos/ravikiranoffl/TGCA/contents/2026"
     
     # Grab the GitHub token from Render's environment variables
     github_token = os.getenv("GITHUB_TOKEN")
